@@ -1,5 +1,17 @@
 <p align="center"><a href="https://github.com/tadata-org/fastapi_mcp"><img src="https://github.com/user-attachments/assets/7e44e98b-a0ba-4aff-a68a-4ffee3a6189c" alt="fastapi-to-mcp" height=100/></a></p>
-<h1 align="center">FastAPI-MCP</h1>
+
+<div align="center">
+  <span style="font-size: 0.85em; font-weight: normal;">Built by <a href="https://tadata.com">Tadata</a></span>
+</div>
+
+<h1 align="center">
+  FastAPI-MCP
+</h1>
+
+<div align="center">
+<a href="https://trendshift.io/repositories/14064" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14064" alt="tadata-org%2Ffastapi_mcp | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</div>
+
 <p align="center">Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</p>
 <div align="center">
 
@@ -31,6 +43,10 @@
 
 - **ASGI transport** - Uses FastAPI's ASGI interface directly for efficient communication
 
+
+## Hosted Solution
+
+If you prefer a managed hosted solution check out [tadata.com](https://tadata.com).
 
 ## Installation
 
@@ -80,6 +96,7 @@ FastAPI-MCP is designed as a native extension of FastAPI, not just a converter t
 
 This design philosophy ensures minimum friction when adding MCP capabilities to your existing FastAPI services.
 
+
 ## Development and Contributing
 
 Thank you for considering contributing to FastAPI-MCP! We encourage the community to post Issues and create Pull Requests.
@@ -97,4 +114,4 @@ Join [MCParty Slack community](https://join.slack.com/t/themcparty/shared_invite
 
 ## License
 
-MIT License. Copyright (c) 2024 Tadata Inc.
+MIT License. Copyright (c) 2025 Tadata Inc.
