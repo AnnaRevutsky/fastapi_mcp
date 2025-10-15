@@ -60,9 +60,6 @@ Documentation = "https://github.com/tadata-org/fastapi_mcp#readme"
 "Source Code" = "https://github.com/tadata-org/fastapi_mcp"
 "Changelog" = "https://github.com/tadata-org/fastapi_mcp/blob/main/CHANGELOG.md"
 
-#[tool.hatch.build.targets.wheel]
-#packages = ["fastapi_mcp"]
-
 [project.scripts]
 fastapi-mcp = "fastapi_mcp.cli:app"
 
