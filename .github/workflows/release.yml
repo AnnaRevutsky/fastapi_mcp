@@ -26,13 +26,13 @@ jobs:
 
       - name: Extract version from tag
         id: get_version
-        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV    
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
 
       - name: Install build dependencies
         run: |
           uv sync --all-extras --dev
           uv pip install build twine
-          
+
       - name: Build the package
         env:
           # Use this environment variable to explicitly set the version
@@ -43,7 +43,7 @@ jobs:
       - name: Check built packages
         run: |
           uv run twine check dist/*
-          
+
       - name: Build and publish
         env:
           TWINE_USERNAME: __token__
